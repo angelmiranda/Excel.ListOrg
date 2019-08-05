@@ -1,0 +1,12 @@
+C:\Users\angel.miranda\Documents\Visual Studio 2017\Projects\Excel.ListOrg\Excel.ListOrg\bin\Debug\Excel.ListOrg.exe.config
+C:\Users\angel.miranda\Documents\Visual Studio 2017\Projects\Excel.ListOrg\Excel.ListOrg\bin\Debug\Excel.ListOrg.exe
+C:\Users\angel.miranda\Documents\Visual Studio 2017\Projects\Excel.ListOrg\Excel.ListOrg\bin\Debug\Excel.ListOrg.pdb
+C:\Users\angel.miranda\Documents\Visual Studio 2017\Projects\Excel.ListOrg\Excel.ListOrg\obj\Debug\Excel.ListOrg.Properties.Resources.resources
+C:\Users\angel.miranda\Documents\Visual Studio 2017\Projects\Excel.ListOrg\Excel.ListOrg\obj\Debug\Excel.ListOrg.csproj.GenerateResource.cache
+C:\Users\angel.miranda\Documents\Visual Studio 2017\Projects\Excel.ListOrg\Excel.ListOrg\obj\Debug\Excel.ListOrg.csproj.CoreCompileInputs.cache
+C:\Users\angel.miranda\Documents\Visual Studio 2017\Projects\Excel.ListOrg\Excel.ListOrg\obj\Debug\Excel.ListOrg.exe
+C:\Users\angel.miranda\Documents\Visual Studio 2017\Projects\Excel.ListOrg\Excel.ListOrg\obj\Debug\Excel.ListOrg.pdb
+C:\Users\angel.miranda\Documents\Visual Studio 2017\Projects\Excel.ListOrg\Excel.ListOrg\obj\Debug\Excel.ListOrg.Form1.resources
+C:\Users\angel.miranda\Documents\Visual Studio 2017\Projects\Excel.ListOrg\Excel.ListOrg\obj\Debug\Excel.ListOrg.csprojAssemblyReference.cache
+C:\Users\angel.miranda\Documents\Visual Studio 2017\Projects\Excel.ListOrg\Excel.ListOrg\bin\Debug\Excel.List\List-Of-Orgs.xlsx
+C:\Users\angel.miranda\Documents\Visual Studio 2017\Projects\Excel.ListOrg\Excel.ListOrg\bin\Debug\Icon.ico
