@@ -70,31 +70,41 @@ namespace Excel.ListOrg
 
         private void reloadExcelData(string ExcelPath, string ExcelTab)
         {
-            Microsoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Interop.Excel.Application();
             if (System.IO.File.Exists(ExcelPath))
             {
-                Workbook excelWorkbook = excelApp.Workbooks.Open(System.IO.Path.GetFullPath(ExcelPath), ReadOnly: true);
-
                 try
                 {
-                    dataGridView1.DataSource = null;
+                    Microsoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Interop.Excel.Application();
+                    Workbook excelWorkbook = excelApp.Workbooks.Open(System.IO.Path.GetFullPath(ExcelPath), ReadOnly: true);
                     Worksheet excelWorksheet = (Worksheet)excelWorkbook.Sheets[ExcelTab];
                     Range orgData = excelWorksheet.UsedRange;
 
-                    getOrgList(orgData);
-                    FilterData();
+                    reloadAppGridData(orgData);
+
+                    excelWorkbook.Close();
+                    excelApp.Quit();
                 }
                 catch (Exception ex)
                 {
                     MessageBox.Show(ex.Message);
                 }
-                finally
-                {
-                    excelWorkbook.Close();
-                    excelApp.Quit();
-                }
             }
             else ExcelRootLink.Text = "Error finding file!";
+        }
+
+        private void reloadAppGridData(Range data)
+        {
+            try
+            {
+                dataGridView1.DataSource = null;
+
+                getOrgList(data);
+                FilterData();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void getOrgList(Range excelRange)
