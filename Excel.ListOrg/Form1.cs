@@ -86,7 +86,7 @@ namespace Excel.ListOrg
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message);
+                    MessageBox.Show("Error loading Excel App:\n" + ex.Message);
                 }
             }
             else ExcelRootLink.Text = "Error finding file!";
@@ -103,7 +103,7 @@ namespace Excel.ListOrg
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show("Error loading Excel file:\n" + ex.Message);
             }
         }
 
